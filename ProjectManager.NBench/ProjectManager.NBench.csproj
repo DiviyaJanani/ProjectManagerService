@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManager.BL\ProjectManager.BL.csproj" />
+    <ProjectReference Include="..\ProjectManager.DL\ProjectManager.DL.csproj" />
+    <ProjectReference Include="..\ProjectManager.Entities\ProjectManager.Entities.csproj" />
+    <ProjectReference Include="..\ProjectManager.NUnit\ProjectManager.NUnit.csproj" />
+    <ProjectReference Include="..\ProjectManagerServiceWebApi\ProjectManagerServiceWebApi.csproj" />
+  </ItemGroup>
+
+</Project>
