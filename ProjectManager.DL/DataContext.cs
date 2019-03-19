@@ -10,7 +10,7 @@ namespace ProjectManager.DL
 {
     public class DataContext : DbContext
     {
-        //connectionString
+        
         public DataContext() : base("name = ProjectManagerConnectionString")
         {
         }
